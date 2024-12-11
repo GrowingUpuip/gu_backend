@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mentorings",
+  "info": {
+    "singularName": "mentoring",
+    "pluralName": "mentorings",
+    "displayName": "Empleos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Publish_date": {
+      "type": "date"
+    },
+    "Contact": {
+      "type": "email"
+    }
+  }
+}

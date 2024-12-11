@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "profils",
+  "info": {
+    "singularName": "profil",
+    "pluralName": "profils",
+    "displayName": "Profile",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Biography": {
+      "type": "text"
+    },
+    "Profile_Picture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Certification": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "password": {
+      "type": "password"
+    },
+    "Lastname": {
+      "type": "string"
+    },
+    "Phone": {
+      "type": "biginteger",
+      "max": "8"
+    },
+    "Level": {
+      "type": "integer"
+    },
+    "Experience": {
+      "type": "decimal"
+    }
+  }
+}
